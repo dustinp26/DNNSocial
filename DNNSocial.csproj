@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DotNetNuke.WebApi" Version="9.11.2"/>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9"/>
+    <PackageReference Include="DotNetNuke.Web" Version="9.11.2"/>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9"/>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3"/>
+  </ItemGroup>
+</Project>
